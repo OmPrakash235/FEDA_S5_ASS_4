@@ -1,0 +1,17 @@
+<!--Write jQuery Code to change the hyperlink and the text of an existing link-->
+
+<html>
+	<head>
+		<title>jQuery dom manipulation</title>
+	</head>
+	<body>
+		<a href="http://www.acadgild.com" id="acadgild">jQuery Tutorial</a>
+	</body>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#acadgild').attr('href','http://www.google.com');
+			$('#acadgild').text('Google');
+		})
+	</script>
+</html>
